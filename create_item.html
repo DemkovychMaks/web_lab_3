@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__inner">
+                <div class="logo" >
+                    Perfumes Shop
+                </div>
+                <div class="header__sections">
+                    <div class="section section__1">
+                        <a href="index.html">My Perfumes</a>
+                    </div>
+                    <div class="section section__2">
+                        <a href="create_item.html">Create Perfume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page create__page">
+        <div class="container create__container">
+            <h1 class="title create__title">Create item</h1>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Title</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Text...">
+            </div>
+            <div class="description">
+                <span class="description__title">Description</span>
+                <div class="description__form form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2"></label>
+                </div>
+            </div>
+            <div class="expense">
+                <span class="daily__expense">Daily expense ($)</span>
+                <label class="number_asc">
+                    <input type="number" placeholder="..." step="1" min="0" max="1000">
+                </label>
+            </div>
+            <div class="item">
+                <span class="item__type">Item type</span>
+                <div class="item__form">
+                    <select class="form-select" aria-label="Select Type">
+                        <option selected>Open this select menu</option>
+                        <option value="1">25ml</option>
+                        <option value="2">50ml</option>
+                        <option value="3">100ml</option>
+                    </select>
+                </div>
+            </div>
+            <div class="page__button">
+                <button type="button" class="btn btn-outline-primary">Confirm</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
