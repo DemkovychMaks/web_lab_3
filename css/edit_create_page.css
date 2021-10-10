@@ -1,0 +1,57 @@
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding: 10px 10px 0;
+    max-width: 1440px;
+}
+.page {
+    margin: 0 auto;
+    width: 1200px;
+}
+.container {
+    padding-top: 60px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px ;
+}
+.mb-3 {
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.description {
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.description__form {
+    padding-top: 5px;
+}
+
+.number_asc {
+    margin-left: 15px;
+}
+
+.item {
+    padding-top: 15px;
+    font-size: 16px;
+}
+.item__form {
+    padding-top: 5px;
+}
+
+.page__button {
+    padding-top: 15px;
+}
+
