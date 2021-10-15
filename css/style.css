@@ -1,0 +1,24 @@
+@import "header.css";
+@import "edit_create_page.css";
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding: 10px 10px 0;
+    max-width: 1440px
+}
+
+a {
+    text-decoration: none;
+}
+
+
